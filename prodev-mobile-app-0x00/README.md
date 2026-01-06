@@ -48,3 +48,10 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+
+The app installation on my Android was smooth and when I ran 
+
+npx expo start
+
+It prompted me to choose either to use the QR code or to copy the link and use it instead
