@@ -1,5 +1,5 @@
 import { Image } from 'expo-image';
-import { Platform, StyleSheet, Text, View } from 'react-native';
+import { Platform, StyleSheet } from 'react-native';
 
 import ParallaxScrollView from '@/components/parallax-scroll-view';
 import { ThemedText } from '@/components/themed-text';
@@ -19,15 +19,6 @@ export default function HomeScreen() {
       <ThemedView style={styles.titleContainer}>
         <ThemedText type="title">Index</ThemedText>
       </ThemedView>
-
-     <View style={styles.container}>
-      <Text style={styles.largeText}>Typescript is great if you practice more</Text>
-      <Text style={styles.mediumText}>React Native provides you a single codebase for cross platforms</Text>
-      <Text style={styles.smallText}>ALX is awesome</Text>
-    </View>
-
-
-
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Step 1: Try it</ThemedText>
         <ThemedText>
@@ -101,28 +92,5 @@ const styles = StyleSheet.create({
     bottom: 0,
     left: 0,
     position: 'absolute',
-  },
-  container: {
-    backgroundColor: "#90caf9",
-  },
-  largeText: {
-    fontSize: 30,
-    color: "#f44336",
-    marginBottom: 5,
-    fontWeight: "700",
-    fontVariant: ["small-caps"],
-  },
-  mediumText: {
-    fontSize: 20,
-    color: "#9c27b0",
-    marginBottom: 10,
-    fontWeight: "500",
-    textAlign: "right",
-  },
-  smallText: {
-    fontSize: 15,
-    color: "#2196f3",
-    fontWeight: "400",
-    textAlign: "center",
-  },
+  }
 });
