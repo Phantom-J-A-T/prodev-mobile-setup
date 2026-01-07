@@ -3,3 +3,4 @@ after scanning the QR code that popped up after I ran
 
 npx expo start
 
+reset-project
