@@ -1,6 +1,6 @@
 
 import { StyleSheet, Text, View } from 'react-native';
-import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
+import { SafeAreaView, SafeAreaProvider } from 'react-native-safe-area-context';
 import {ImageBackground} from 'expo-image-background';
 import {Dimensions} from 'react-native';
 import {Image} from 'react-native';
